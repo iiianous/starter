@@ -1,7 +1,10 @@
 $(function() {
-	var $heading = $('.heading');
+	var $ul 		= $('.lists');
+	var $lists 		= $('.list-item');
 
-	console.log( $heading.length );
-
+	var tap = function(x) {
+		console.log(x);
+		return x;
+	}
 
 });
