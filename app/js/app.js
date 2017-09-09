@@ -1,7 +1,18 @@
 $(function() {
-	var $heading = $('.heading');
+	// DOM
 
-	console.log( $heading.length );
+
+
+
+	// Function
+	var tap = function(x) {
+		console.log(x);
+		return x;
+	}
+
+
+	// Events
+
 
 
 });
